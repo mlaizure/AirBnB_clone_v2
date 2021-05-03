@@ -1,14 +1,13 @@
 .filters {
-	display: block;
 	background-color: white;
 	height: 70px;
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	position: relative;
 }
 
 .locations {
-	display: inline;
 	vertical-align: middle;
 	float: left;
 	height: 100%;
@@ -19,7 +18,6 @@
 }
 
 .amenities {
-	display: inline;
 	vertical-align: middle;
 	height: 100%;
 	float: left;
@@ -44,11 +42,11 @@
 }
 
 .locations:hover .popover {
-	display: inline-block;
+	display: block;
 }
 
 .amenities:hover .popover {
-	display: inline-block;
+	display: block;
 }
 
 ul {
